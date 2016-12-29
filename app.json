@@ -1,0 +1,16 @@
+{
+  "name": "synd",
+  "description": "syndicat ",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
