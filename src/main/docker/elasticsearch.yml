@@ -1,0 +1,10 @@
+version: '2'
+services:
+    syndicat-elasticsearch:
+        container_name: syndicat-elasticsearch
+        image: elasticsearch:2.4.1
+        # volumes:
+        #     - ~/volumes/jhipster/syndicat/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300

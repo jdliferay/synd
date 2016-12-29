@@ -1,0 +1,12 @@
+version: '2'
+services:
+    syndicat-postgresql:
+        container_name: syndicat-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/syndicat/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=syndicat
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
